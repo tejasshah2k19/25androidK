@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android25</string>
+    <string name="signup">SIGNUP</string>
+    <string name="firstname">Firstname</string>
+</resources>
