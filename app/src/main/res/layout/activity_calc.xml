@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalcActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCalcInput"
+        android:layout_marginTop="30dp"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridCalcButtons"
+        android:rowCount="4"
+        android:columnCount="4"
+        >
+
+        <Button android:id="@+id/btnCal0" android:text="0"/>
+        <Button android:id="@+id/btnCal1" android:text="1"/>
+        <Button android:id="@+id/btnCal2" android:text="2"/>
+        <Button android:id="@+id/btnCal3" android:text="3"/>
+
+
+        <Button android:id="@+id/btnCal4" android:text="4"/>
+
+        <Button android:id="@+id/btnCal5" android:text="5"/>
+        <Button android:id="@+id/btnCal6" android:text="6"/>
+        <Button android:id="@+id/btnCal7" android:text="7"/>
+        <Button android:id="@+id/btnCal8" android:text="8"/>
+        <Button android:id="@+id/btnCal9" android:text="9"/>
+        <Button android:id="@+id/btnCalPlus" android:text="+"/>
+        <Button android:id="@+id/btnCalMinus" android:text="-"/>
+        <Button android:id="@+id/btnCalDiv" android:text="/"/>
+        <Button android:id="@+id/btnCalMul" android:text="*"/>
+
+        <Button android:id="@+id/btnCalClear" android:text="C"/>
+        <Button android:id="@+id/btnCalAns" android:text="ANS"/>
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>
